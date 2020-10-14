@@ -10,6 +10,7 @@ Our model investigates two pictures of a cat for similarity. We achieve this usi
 The Siamese Network architecture also allows for computing the feature vectors of the photos of the lost reports in advance. Thus, the actual search query only requires a very low processing load. 
 
 # How to use the model
-To 
+To calculate the feature vector of a single image, use the function calculate_single_image_vector(img) in useful_functions.py or run it from the terminal:
+$ python useful_functions.py -s -img
 
 
