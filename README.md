@@ -30,5 +30,4 @@ $ python useful_functions.py -c --img1 --img2
 To calculate the vector distance of two cat images, use the function calculate_vector_distance(img_pair) in useful_functions.py or run it from the terminal:
 $ python useful_functions.py -d --img1 --img2
 
-
-
+# Evaluation
