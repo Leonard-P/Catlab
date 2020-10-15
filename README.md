@@ -39,7 +39,6 @@ $ python useful_functions.py -d --img1 --img2
 
 # Evaluation
 * When two images with a vector distance smaller then 0.5 are considered to depict the same cat, our model achieves an accuracy of 85% on our test set.
-* Top 1% Acc <br>
-<!---![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png)--->
-<img src="https://github.com/Leonard-P/Catlab/blob/main/histogram.png" style="width:100%;">
+* Top 1% Acc
+![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png "Distribution of the correct search result in a list of search results")
 * 3D-Projektion
