@@ -1,5 +1,5 @@
 # Catlab
-AI to identify missing cats
+### AI to identify missing cats
 
 # Who is supposed to read this?
 Primarily, this project adresses people who provide a service where cat owners can post lost reports so that poeple who find a cat can identify its owner. If you are such a person and you woud like to enhance the user experience with AI, this is the right place to go. <br>
