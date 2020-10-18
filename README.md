@@ -37,10 +37,11 @@ $ python useful_functions.py -c --img1 --img2
 To calculate the vector distance of two cat images, use the function calculate_vector_distance(img_pair) in useful_functions.py or run it from the terminal:<br>
 $ python useful_functions.py -d --img1 --img2
 
-# Evaluation
+# Results
 * When two images with a vector distance smaller then 0.5 are considered to depict the same cat, our model achieves an accuracy of **85%** on our test set.
-* In the unsorted list of search results, the actual "true" one appears within the first 50% with a probability of 50%. <br>
-  In the list sorted by our model, it is located within the first **10%** in over **99.8%** of the cases, and in **66%** of the cases even within the first **1%**. <br>
-  On average, the number of search results a user has to look through decreases by a factor of 55 - a time saving of over 98%.
+In the unsorted list of search results, the actual "true" one appears within the first 50% with a probability of 50%. <br>
+* In the list sorted by our model, it is located within the first **10%** in over **99.8%** of the cases, and in **66%** of the cases even within the first **1%**. <br>
+* On average, the number of search results a user has to look through decreases by a factor of 55 - a time saving of over 98%.
+
+__Distribution of the desired results in sorted lists if search results__
 ![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png)
-* 3D-Projektion
