@@ -40,9 +40,9 @@ $ python useful_functions.py -d --img1 --img2
 # Results
 * When two images with a vector distance smaller then 0.5 are considered to depict the same cat, our model achieves an accuracy of **85%** on our test set.
 
-In an unsorted list of search results, which contains the lost report of the found cat, the actual "true" one appears within the first 50% with a probability of 50%. <br>
+In an _unsorted_ list of search results, which contains the lost report of the found cat, the actual "true" search result appears within the first 50% with a probability of 50%. <br>
 * In the list sorted by our model, it is located within the first **10%** in over **99.8%** of the cases, and in **66%** of the cases even within the first **1%**. <br>
 * On average, the number of search results a user has to look through decreases by a factor of **55** - a time saving of over **98%**.
 
 ![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png)
-*Probability to find the missing report of the found cat on different locations in the sorted list of search results.*
+_Probability to find the missing report of the found cat on different locations in the sorted list of search results._
