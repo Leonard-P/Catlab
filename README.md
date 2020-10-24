@@ -45,4 +45,4 @@ In an _unsorted_ list of search results, which contains the lost report of the f
 * On average, the number of search results a user has to look through decreases by a factor of **55** - a time saving of over **98%**.
 
 ![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png)
-_The right search result appears almost always within the first displayed search results._
+_The right search result appears almost always within the first displayed search results in the sorted list._
