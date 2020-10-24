@@ -7,7 +7,7 @@ But you may also use the model for your next AI project, like a cat flap with fa
 
 # Our goal
 With our Catlab AI, we want to help missing cats and their owners. <br>
-Our goal is to speed up the identification of a found cat by uploading a picture of it into your app or website which then displays lost reports with similar looking cats. In this way even non-chipped/tattooed cats can be identified within seconds. It is also an improvement in terms of identifying marked cats, as the AI makes it possible to identify it without requiring tools such as chip readers, therefore saving the trip to the shelter or vet.
+Our goal is to speed up the identification of a found cat by uploading a picture of it into your app or website. Our algorithm then displays lost reports with similar looking cats. In this way even non-chipped/tattooed cats can be identified within seconds. It is also an improvement in terms of identifying marked cats, as the AI makes it possible to identify it without requiring tools such as chip readers, therefore saving the trip to the shelter or vet.
 
 # Why use Catlab?
 We provide a ready-to-use deep neural network, including the code needed for operation - all for free and under the very permissive MIT-licence. From the very beginning, our model was developed with the goals of minimizing computational cost and inference time, whithout loss of accuracy. To achieve this, we use the brand-new EfficientNet-architecture as backbone and a Siamese Network as overall architecture, which opens up the possibility to run the vast majority of computations already in advance, instead of for every single search request. The computing load of your servers might actually go _down_ as users will have to look through a smaller number of lost reports.
