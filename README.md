@@ -2,8 +2,8 @@
 ### AI to identify missing cats
 
 # Who is supposed to read this?
-Primarily, this project adresses people who provide a service where cat owners can post lost reports so that poeple who find a cat can identify its owner. If you are such a person and you woud like to enhance the user experience with Artificial Intelligence, this is the right place to go. <br>
-But you may also use the model for your next AI project, like a cat flap with face recognition. :D
+Primarily, this project adresses people who provide a service where cat owners can post lost reports so that poeple who find a cat can identify its owner. If you are such a person and you woud like to enhance the user experience with AI, this is the right place to go. <br>
+But you may also use the model for your next AI project, like a cat flap with face recognition.
 
 # Our goal
 With our Catlab AI, we want to help missing cats and their owners. <br>
