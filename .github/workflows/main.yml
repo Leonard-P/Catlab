@@ -13,5 +13,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           check: 'all'
           update: true
-          target_branch: master
           target_repository: user/user-repo
