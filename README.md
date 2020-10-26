@@ -17,7 +17,7 @@ Our model investigates two pictures of a cat for similarity. We achieve this usi
 The Siamese Network architecture also allows for computing the feature vectors of the photos of the missing reports in advance. Thus, the actual search query only requires very low comptutaional cost. 
 
 # How to use the model
-The code in catlab_functions.py shows how to use the model to complete tasks like sorting lists of cat images by similarity or calculating feature vectors of cat images. The script also provides ready-to-use functions that are useful when working with the model; the script examples.py demonstrates how to use them.
+The code in catlab_functions.ipynb or catlab_functions.py shows how to use the model to complete tasks like sorting lists of cat images by similarity or calculating feature vectors of cat images. The script also provides ready-to-use functions that are useful when working with the model; the script examples.py demonstrates how to use them.
 
 # Results
 * When two images with a vector distance smaller then 0.5 are considered to depict the same cat, our model achieves an accuracy of **85%** on our test set.
