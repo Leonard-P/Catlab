@@ -20,4 +20,4 @@ jobs:
           # Branch that the badge will target. Defaults to the current branch.
           #target_branch: # optional, default is 
           # Repository that the badge will target. Defaults to the current repository.
-          #target_repository: # optional, default is 
+          target_repository: "Leonard-P/Catlab"
