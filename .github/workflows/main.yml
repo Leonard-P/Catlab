@@ -6,7 +6,7 @@ jobs:
     name: Example Job
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/master
+      - uses: marketplace/actions
       - name: Colab Badge Action 
         uses: trsvchn/colab-badge-action@v2
         with:
