@@ -24,7 +24,7 @@ The code in catlab_functions.ipynb or catlab_functions.py shows how to use the m
 
 In an _unsorted_ list of search results, which contains the missing report of the found cat, the actual "true" search result appears within the first 50% with a probability of 50%. <br>
 * In the list sorted by our model, it is located within the first **50%** of the list in over **99.8%** of the cases, and in **66%** of the cases even within the first **5%**. <br>
-* On average, the number of search results a user has to look through decreases by over 90%.
+* On average, the number of search results a user has to look through decreases by over **90%**.
 
 ![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png)
 _The right search result appears almost always within the first displayed search results in the sorted list._
