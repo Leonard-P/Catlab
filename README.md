@@ -30,6 +30,6 @@ In an _unsorted_ list of search results, which contains the missing report of th
 _The right search result appears almost always within the first displayed search results in the sorted list._
 
 # Required Software
-* python 3.7
-* tensorflow 2.1.x
-* efficientnet 1.1.1
+* Python 3.7
+* Tensorflow 2.1.x
+* EfficientNet 1.1.1
