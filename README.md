@@ -28,3 +28,8 @@ In an _unsorted_ list of search results, which contains the missing report of th
 
 ![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png)
 _The right search result appears almost always within the first displayed search results in the sorted list._
+
+# Required Software
+* python 3.7
+* tensorflow 2.1.x
+* efficientnet 1.1.1
