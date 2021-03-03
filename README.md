@@ -20,11 +20,11 @@ The Siamese Network architecture also allows for computing the feature vectors o
 The code in catlab_functions.ipynb or catlab_functions.py shows how to use the model to complete tasks like sorting lists of cat images by similarity or calculating feature vectors of cat images. The script also provides ready-to-use functions that are useful when working with the model; the script examples.py demonstrates how to use them.
 
 # Results
-* When two images with a vector distance smaller then 0.5 are considered to depict the same cat, our model achieves an accuracy of **85%** on our test set.
+* When two images with a vector distance smaller then 0.412 are considered to depict the same cat, our model achieves an accuracy of **96%** on our test set.
 
 In an _unsorted_ list of search results, which contains the missing report of the found cat, the actual "true" search result appears within the first 50% with a probability of 50%. <br>
-* In the list sorted by our model, it is located within the first **10%** of the list in over **95%** of the cases, and in **54%** of the cases even within the first **1%**. <br>
-* On average, the number of search results a user has to look through decreases by over **95%**.
+* In the list sorted by our model, it is located within the first **10%** of the list in over **97%** of the cases, and in **65%** of the cases even within the first **1%**. <br>
+* On average, the number of search results a user has to look through decreases by **95%**.
 
 ![Histogram](https://github.com/Leonard-P/Catlab/blob/main/histogram.png)
 _The right search result appears almost always within the first displayed search results in the sorted list._
