@@ -1,5 +1,5 @@
 # Catlab
-AI to identify missing cats
+### AI to identify missing cats
 
 Catlab ist gewissermaßen eine Gesichtserkennung für Katzen - nur dass der ganze Tierkörper in die Entscheidung einfließt. Der Hauptanwendungszweck ist die Identifizierung vermisster Katzen durch das Sortieren von Vermisstenmeldungen nach Ähnlichkeit zu einem Referenzbild, das ein potenzieller Finder einer Katze erstellt.
 Aber auch für weitere Zwecke, wie Katzenklappen oder Futterautomaten mit Gesichtserkennung, kann die Beachtung des ganzen Körpers von Vorteil sein.
