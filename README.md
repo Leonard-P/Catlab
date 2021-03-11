@@ -25,7 +25,7 @@ Aber das Modell lässt sich auch mit so gut wie allen weiteren Sprachen verwende
 ## Preprocessing
 Zur Vorbereitung der Bilder für das neuronale Netz sollten diese auf das Format 1:1 zugeschnitten werden und mit der Tensorflow-Funktion
 ```python
-tensorflow.keras.applications.imagenet_utils.preprocess_input(IMAGE, mode=torch)
+tensorflow.keras.applications.imagenet_utils.preprocess_input(IMAGE, mode="torch")
 ```
 fertig vorverarbeitet werden. IMAGE ist ein numpy.array mit Werten von 0 bis 255. <br>
 
