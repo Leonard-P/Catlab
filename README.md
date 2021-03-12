@@ -11,7 +11,7 @@ Zunächst schrieben wir für den Datensatz einen Crawler, um Bilder von Onlineti
 Das Notebook ‘Demo.ipynb’ lässt sich einfach mit Google Colaboratory öffnen und ausführen (Es ist wichtig, alle Zellen von oben nach unten auszuführen). Im Notebook wird aus dem Dogs-vs-Cats-Datensatz ein zufälliges Referenzbild ausgewählt, zu dem unser Netz die ähnlichsten Bilder aus dem Datensatz auswählt. Durch erneutes Ausführen der letzten Zelle wird eine neue Sortierung generiert.
 
 # Web-Demonstration
-Wir arbeiten derzeit an einer Website, die die Funktionalität des Netzes demonstriert. Nach der Fertigstellung, voraussichtlich Ende März, wird sie hier verlinkt.
+Zur Demonstration der Funktionalität des Neuronalen Netzes haben wir eine kleine Website programmiert. Sie lässt sich über folgenden Link aufrufen: http://catlab-ai.de/
 
 # Verwendung
 ## Benötigte Software:
