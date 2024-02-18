@@ -1,6 +1,14 @@
 # Catlab
 ### AI to identify missing cats
 
+## 2024 update
+The model.h5 file was re-exported in the native keras format ("catlab_model_2024") for compatibility with newer python and tensorflow versions. It was tested under
+* Python 3.10.12
+* Tensorflow 2.15.0
+The jupyter notebook "Catlab2024.ipynb" gives an example of loading and using the model. It is intended to run on Google Colaboratory.
+
+
+## Introduction (German)
 Catlab ist gewissermaßen eine Gesichtserkennung für Katzen - nur dass der ganze Tierkörper in die Entscheidung einfließt. Der Hauptanwendungszweck ist die Identifizierung vermisster Katzen durch das Sortieren von Vermisstenmeldungen nach Ähnlichkeit zu einem Referenzbild, das ein potenzieller Finder einer Katze erstellt.
 Aber auch für weitere Zwecke, wie Katzenklappen oder Futterautomaten mit Gesichtserkennung, kann die Beachtung des ganzen Körpers von Vorteil sein.
 
