@@ -5,6 +5,7 @@
 The model.h5 file was re-exported in the native keras format ("catlab_model_2024") for compatibility with newer python and tensorflow versions. It was tested under
 * Python 3.10.12
 * Tensorflow 2.15.0
+
 The jupyter notebook "Catlab2024.ipynb" gives an example of loading and using the model. It is intended to run on Google Colaboratory.
 
 
