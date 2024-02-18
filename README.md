@@ -41,7 +41,7 @@ Für die Vorverarbeitung in anderen Sprachen befindet sich ein Beispiel für Jav
 
 ## Input- / Outputformat
 ### Vektorabstand zweier Bilder berechnen
-Zur Berechnung des Vektorabstandes eines Bilderpaars bzw. mehrerer Bilderpaare erwartet das Modell zwei Listen mit jeweils einem Bild der Paare; es erwartet also Eingaben der Form (2, BATCH_SIZE, IMAGE_SIZE, IMAGE_SIZE, 3). IMAGE_SIZE ist die Auflösung der Bilder, für die wir 350x350 Pixel empfehlen (zum Training verwendeten wir 224x224 Pixel). Die Auflösung ist jedoch frei wählbar. <br>
+Zur Berechnung des Vektorabstandes eines Bilderpaars bzw. mehrerer Bilderpaare erwartet das Modell zwei Listen mit jeweils einem Bild der Paare; es erwartet also Eingaben der Form (2, BATCH_SIZE, IMAGE_SIZE, IMAGE_SIZE, 3). IMAGE_SIZE ist die Auflösung der Bilder (zum Training verwendeten wir 224x224 Pixel). <br>
 
 Die Ausgabe ist eine Matrix an Gleitkommazahlen der Form (BATCH_SIZE, 1), die den Vektorabstand angibt. Ist der Abstand größer als 0.412, handelt es sich vermutlich um verschiedene Katzen.
 
@@ -50,7 +50,7 @@ Um einen einzelnen Feature Vector für ein oder mehrere Bilder zu berechnen, ben
 ```python
 base_model = model.layers[2]
 ```
-Das base_model erwartet eine Liste mit Bildern der Form (BATCH_SIZE, IMAGE_SIZE, IMAGE_SIZE, 3). Als IMAGE_SIZE empfehlen wir für die Inferenz wieder 350x350 Pixel.
+Das base_model erwartet eine Liste mit Bildern der Form (BATCH_SIZE, IMAGE_SIZE, IMAGE_SIZE, 3). Als IMAGE_SIZE funktionieren 224x224 Pixel.
 Die Ausgabe ist eine Matrix der Form (BATCH_SIZE, 128). Sie entspricht einer Liste an Einbettungs-Vektoren der Dimensionalität 128.
 
 # Ergebnisse
