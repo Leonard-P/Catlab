@@ -37,7 +37,7 @@ tensorflow.keras.applications.imagenet_utils.preprocess_input(IMAGE, mode="torch
 ```
 fertig vorverarbeitet werden. IMAGE ist ein numpy.array mit Werten von 0 bis 255. <br>
 
-Für die Vorverarbeitung in anderen Sprachen befindet sich ein Beispiel für JavaScript im Repository unserer Website. Dieses ist derzeit noch in der Entwicklung und wird vermutlich ab Ende März veröffentlicht. 
+Für die Vorverarbeitung in anderen Sprachen befindet sich ein Beispiel für JavaScript im [Repository unserer Website](https://github.com/Leonard-P/Leonard-P.github.io.git).
 
 ## Input- / Outputformat
 ### Vektorabstand zweier Bilder berechnen
